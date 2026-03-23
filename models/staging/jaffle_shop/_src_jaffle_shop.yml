@@ -13,6 +13,8 @@ sources:
       loaded_at_field: _ETL_LOADED_AT
     tables:
       - name: customers
+        description: This is a table named customers.
         config: 
           freshness: null
       - name: orders
+        description: "{{doc('order_status')}"
