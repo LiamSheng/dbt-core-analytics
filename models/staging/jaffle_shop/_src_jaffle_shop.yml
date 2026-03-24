@@ -17,4 +17,4 @@ sources:
         config: 
           freshness: null
       - name: orders
-        description: "{{doc('order_status')}"
+        description: "{{doc('order_status')}}"
